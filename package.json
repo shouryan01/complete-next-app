@@ -9,6 +9,7 @@
     "lint": "bunx biome lint --write",
     "format": "bunx biome format --write",
     "check": "bunx biome check --write",
+    "auth:generate": "bunx @better-auth/cli@latest generate --output ./src/db/schema.ts --yes",
     "db:generate": "bunx drizzle-kit generate",
     "db:migrate": "bunx drizzle-kit migrate",
     "db:push": "bunx drizzle-kit push",
@@ -16,6 +17,9 @@
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.0.2",
+    "@radix-ui/react-label": "^2.1.8",
+    "@radix-ui/react-slot": "^1.2.4",
+    "better-auth": "^1.4.5",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "dotenv": "^17.2.3",

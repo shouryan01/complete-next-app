@@ -1,4 +1,4 @@
-import Image from "next/image";
+import SignIn from "@/components/sign-in";
 
 export default function Home() {
   return (
@@ -18,6 +18,9 @@ export default function Home() {
           >
             Documentation
           </a>
+        </div>
+        <div className="flex w-full items-center justify-center">
+          <SignIn />
         </div>
       </main>
     </div>
