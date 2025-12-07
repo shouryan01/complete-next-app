@@ -17,12 +17,6 @@ export default function SignIn() {
 
   return (
     <Card className="max-w-md">
-      <CardHeader>
-        <CardTitle className="text-lg md:text-xl">Sign In</CardTitle>
-        <CardDescription className="text-xs md:text-sm">
-          Enter your email below to login to your account
-        </CardDescription>
-      </CardHeader>
       <CardContent>
         <div className="grid gap-4">
           <div

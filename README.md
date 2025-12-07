@@ -1,6 +1,12 @@
 ## Getting Started
 
-First, create a new Postgres Database. I am using `Neon`. Add the connection string to `DATABASE_URL`
+First, install all depencencies:
+
+```bash
+bun i
+```
+
+Secong, create a new Postgres Database. I am using `Neon`. Add the connection string to `DATABASE_URL`
 
 Next, set `BETTER_AUTH_SECRET`. This is a secret value used for encryption and hashing. It must be at least 32 characters and generated with high entropy. Use:
 
@@ -18,7 +24,7 @@ After that, you must create the schema for `Better Auth` to work, and push that 
 bun auth:generate
 
 bun db:generate
-bun db:db:migrate
+bun db:migrate
 ```
 
 In general, to make other DB Schema changes apart from auth, this is the workflow:
@@ -30,6 +36,12 @@ bun db:push
 ```
 
 Other: `db:studio` to access the Drizzle Studio
+
+Lastly, your app is ready! Start the development server:
+
+```bash
+bun dev
+```
 
 ---
 
