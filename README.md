@@ -6,7 +6,9 @@ First, install all depencencies:
 bun i
 ```
 
-Secong, create a new Postgres Database. I am using `Neon`. Add the connection string to `DATABASE_URL`
+Rename `.env.example` to `.env`. You will use this file to save your environment variables.
+
+Second, create a new Postgres Database. I am using `Neon`. Add the connection string to `DATABASE_URL`
 
 Next, set `BETTER_AUTH_SECRET`. This is a secret value used for encryption and hashing. It must be at least 32 characters and generated with high entropy. Use:
 
