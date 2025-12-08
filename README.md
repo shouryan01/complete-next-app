@@ -16,6 +16,8 @@ openssl rand -base64 32
 
 Generate `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET` in `.env` in [Google Cloud](https://console.cloud.google.com/apis/credentials?)
 
+Use this callback url `http://localhost:3000/api/auth/callback/google`
+
 ---
 
 After that, you must create the schema for `Better Auth` to work, and push that to remote Neon. Run these following commands one by one:
