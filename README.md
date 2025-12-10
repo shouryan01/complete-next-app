@@ -51,12 +51,14 @@ bun dev
 
 ## Tech Stack
 
-- Next.js 16 (with React 19)
-- TypeScript
-- bun (as runtime and package manager)
-- Tailwind CSS 4
-- Biome JS (linter & formatter)
-- shadcn/ui
-- Drizzle ORM
-- Better Auth
-- PostgreSQL (through Neon)
+- [React 19](https://react.dev)
+- [Next.js 16](https://nextjs.org)
+- [TypeScript](https://www.typescriptlang.org)
+- [Bun](https://bun.sh)
+- [Tailwind CSS 4](https://tailwindcss.com)
+- [Biome JS](https://biomejs.dev)
+- [shadcn/ui](https://ui.shadcn.com)
+- [Drizzle ORM](https://orm.drizzle.team)
+- [Better Auth](https://www.better-auth.com)
+- [PostgreSQL](https://www.postgresql.org)
+- [Neon](http://neon.com)
